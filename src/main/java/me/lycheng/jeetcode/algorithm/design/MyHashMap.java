@@ -4,12 +4,11 @@ import java.util.Arrays;
 
 public class MyHashMap {
 
-    private static int MAX = 1000001;
-
     private int[] container;
 
     /** Initialize your data structure here. */
     public MyHashMap() {
+        int MAX = 1000001;
         container = new int[MAX];
         Arrays.fill(container, -1);
     }

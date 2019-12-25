@@ -2,11 +2,10 @@ package me.lycheng.jeetcode.algorithm.design;
 
 public class MyHashSet {
 
-    private static int MAX = 1000001;
-
     private boolean[] container;
 
     public MyHashSet() {
+        int MAX = 1000001;
         container = new boolean[MAX];
     }
 

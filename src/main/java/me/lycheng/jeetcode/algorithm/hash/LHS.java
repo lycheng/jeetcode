@@ -18,7 +18,7 @@ public class LHS {
         for (int n: counter.keySet()) {
             int nCnt = counter.get(n);
             if (counter.containsKey(n+1)) {
-                lhs = counter.get(n+1) + nCnt > lhs? counter.get(n+1) + nCnt: lhs;
+                lhs = Math.max(counter.get(n + 1) + nCnt, lhs);
             }
         }
         return lhs;

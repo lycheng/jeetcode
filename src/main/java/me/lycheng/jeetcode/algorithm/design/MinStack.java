@@ -18,7 +18,7 @@ public class MinStack {
         Node node = new Node(x);
         node.next = head;
         if (head != null) {
-            node.minSoFar = node.val < head.minSoFar? node.val: head.minSoFar;
+            node.minSoFar = Math.min(node.val, head.minSoFar);
         }
         head = node;
     }
