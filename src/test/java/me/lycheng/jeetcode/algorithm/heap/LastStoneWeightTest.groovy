@@ -1,4 +1,4 @@
-package me.lycheng.jeetcode.heap
+package me.lycheng.jeetcode.algorithm.heap
 
 class LastStoneWeightTest extends GroovyTestCase {
     void testLastStoneWeight() {

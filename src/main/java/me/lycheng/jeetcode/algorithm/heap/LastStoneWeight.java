@@ -1,4 +1,4 @@
-package me.lycheng.jeetcode.heap;
+package me.lycheng.jeetcode.algorithm.heap;
 
 import java.util.PriorityQueue;
 
