@@ -1,4 +1,4 @@
-package me.lycheng.jeetcode.recursion;
+package me.lycheng.jeetcode.algorithm.recursion;
 
 /**
  * https://leetcode.com/problems/n-th-tribonacci-number/

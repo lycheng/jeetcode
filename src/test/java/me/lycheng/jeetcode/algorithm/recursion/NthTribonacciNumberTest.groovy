@@ -1,4 +1,4 @@
-package me.lycheng.jeetcode.recursion
+package me.lycheng.jeetcode.algorithm.recursion
 
 class NthTribonacciNumberTest extends GroovyTestCase {
     void testTribonacci() {
